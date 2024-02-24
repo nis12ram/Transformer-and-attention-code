@@ -6,7 +6,7 @@ This repository provides implementations of the following key Transformer compon
 
 ---> Transformer Encoder: Processes and encodes input sequences.
 
----> Transformer Decoder: Decodes encoded information to generate output sequences.\n
+---> Transformer Decoder: Decodes encoded information to generate output sequences.
 
 ---> Multi-Head Attention: Extends the attention mechanism with multiple parallel attention heads for richer representation learning.
 
