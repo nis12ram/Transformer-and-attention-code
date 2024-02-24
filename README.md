@@ -4,12 +4,15 @@ This repository implements the core building blocks of Transformers, a powerful 
 What's Inside?
 This repository provides implementations of the following key Transformer components:
 
-Transformer Encoder: Processes and encodes input sequences.
+---> Transformer Encoder: Processes and encodes input sequences.
+
+---> Transformer Decoder: Decodes encoded information to generate output sequences.\n
+
+---> Multi-Head Attention: Extends the attention mechanism with multiple parallel attention heads for richer representation learning.
+
+---> Absolute Positional Encoding: Injects positional information into the model since Transformers lack inherent knowledge of sequence order.
 
 
-Transformer Decoder: Decodes encoded information to generate output sequences.\n
-Multi-Head Attention: Extends the attention mechanism with multiple parallel attention heads for richer representation learning.
-Absolute Positional Encoding: Injects positional information into the model since Transformers lack inherent knowledge of sequence order.
 Getting Started
 ### Prerequisites:
 
