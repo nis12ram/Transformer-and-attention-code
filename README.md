@@ -16,6 +16,5 @@ This repository provides implementations of the following key Transformer compon
 Getting Started
 ### Prerequisites:
 
-Python 3
-
-PyTorch: Install using pip install torch
+===>Python 3
+===>PyTorch: Install using pip install torch
