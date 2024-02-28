@@ -21,9 +21,13 @@ Getting Started
 ---> PyTorch: Install using pip install torch
 
 
-### Notations used
+### Some Importnat Notations used
 | Symbol        | Meaning       | 
 | ------------- |:-------------:| 
 | num_queries or max_sequence_length | maximum length of the sequence| 
 | head_dims or d_k or d_v | diension of key vector and value vector|   
 | num_heads or h | number of self attention working independantly|  
+
+
+### Dataset used for spanish and english translation
+http://storage.googleapis.com/download.tensorflow.org/data/spa-eng.zip
