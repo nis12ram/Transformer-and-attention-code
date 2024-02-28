@@ -12,6 +12,8 @@ This repository provides implementations of the following key Transformer compon
 
 ---> Absolute Positional Encoding: Injects positional information into the model since Transformers lack inherent knowledge of sequence order.
 
+---> translator model: uses transformer to build character level and word level language model.
+
 
 Getting Started
 ### Prerequisites:
