@@ -22,8 +22,8 @@ Getting Started
 
 
 ### Notations used
-| symbol        | Meaning       | 
+| Symbol        | Meaning       | 
 | ------------- |:-------------:| 
-| col 3 is      | right-aligned | 
+| num_queries or max_sequence_length      | right-aligned | 
 | col 2 is      | centered      |   
 | zebra stripes | are neat      |  
