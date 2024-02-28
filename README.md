@@ -19,3 +19,7 @@ Getting Started
 ---> Python 3
 
 ---> PyTorch: Install using pip install torch
+
+
+### Notations used
+| Element | Description |
