@@ -5,8 +5,7 @@ from torch import nn
 import torch.nn.functional as f
 
 
-def get_device():
-    return torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+
 
 
 class AbsolutePositionalEncoding(nn.Module):
