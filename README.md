@@ -38,21 +38,37 @@ http://storage.googleapis.com/download.tensorflow.org/data/spa-eng.zip
 
 This project is built upon the following resources, which were instrumental in understanding and implementing the transformer architecture:
 
-Attention Is All You Need paper by Ashish Vaswani et al. (https://arxiv.org/pdf/1706.03762)
+1. Attention Is All You Need paper by Ashish Vaswani et al. (https://arxiv.org/pdf/1706.03762)
+
 This seminal paper lays the foundation for the transformer architecture, introducing the core concepts of self-attention, encoder-decoder structure, and multi-head attention.
 Key takeaways:
+
 Transformers rely solely on attention mechanisms for dependency modeling, eliminating the need for recurrent or convolutional layers.
+
 Self-attention allows models to capture long-range dependencies and contextual information effectively.
+
 The encoder-decoder structure is well-suited for sequence-to-sequence tasks.
-The Illustrated Transformer by Jay Alammar (http://jalammar.github.io/illustrated-transformer/)
+
+2. The Illustrated Transformer by Jay Alammar (http://jalammar.github.io/illustrated-transformer/)
+
 This interactive visualization tool provides a comprehensive and intuitive understanding of the transformer's inner workings.
+
 Benefits:
+
 Step-by-step visualization of transformer layers and processes.
+
 Interactive exploration of attention matrices, aiding in understanding how the model focuses on relevant parts of the input.
+
 A valuable resource for both beginners and experienced individuals seeking to deepen their knowledge.
-Code Emporium Transformer YouTube Playlist (https://www.youtube.com/@CodeEmporium)
+
+3. Code Emporium Transformer YouTube Playlist (https://www.youtube.com/@CodeEmporium)
+
 This video series offers a clear and detailed code walkthrough, explaining the implementation of the transformer architecture from scratch.
+
 Advantages:
+
 Practical, hands-on approach to transformer implementation.
+
 Code snippets and explanations to enhance understanding.
+
 Reinforces the theoretical concepts with practical implementation examples.
