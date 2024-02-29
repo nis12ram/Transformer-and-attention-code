@@ -59,7 +59,6 @@ Step-by-step visualization of transformer layers and processes.
 
 Interactive exploration of attention matrices, aiding in understanding how the model focuses on relevant parts of the input.
 
-A valuable resource for both beginners and experienced individuals seeking to deepen their knowledge.
 
 3. Code Emporium Transformer YouTube Playlist (https://www.youtube.com/@CodeEmporium)
 
@@ -71,4 +70,3 @@ Practical, hands-on approach to transformer implementation.
 
 Code snippets and explanations to enhance understanding.
 
-Reinforces the theoretical concepts with practical implementation examples.
