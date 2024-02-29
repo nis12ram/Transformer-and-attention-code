@@ -5,6 +5,8 @@ from torch import nn
 import torch.nn.functional as f
 
   
+def get_device():
+    return torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
 
 
@@ -91,7 +93,7 @@ class SentenceEmbedding(nn.Module):
            tuple of sentences of vocabulary language_to_index
     '''
     ### step 1 convert batch sentence to batch index(tensor)
-    x = self.batch_tokenize(x,start_token,end_token)  # shape (batch_size,num_queries)
+    x = self.batch_tokenize(x,start_token,end_token) # shape (batch_size,num_queries)
 
     x = self.embedding(x) # shape (batch_size,num_queries,d_model)
     pe = self.position_encoder.forward() # shape (num_queries,d_model)
